@@ -40,7 +40,7 @@ var swiper = new Swiper(".dealers-slider", {
      el: ".swiper-pagination",
      clickable: true,
    },
-   breakpoints: {
+    breakpoints: {
       540: {
         slidesPerView: 1,
       },

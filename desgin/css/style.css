@@ -159,9 +159,8 @@ section{
    position: absolute;
    top: 0; left: 0;
    z-index: -1;
-   height: 100%;
-   width: 100%;
    object-fit: cover;
+   width: 80%; height: 65%; margin-top: 13rem;margin-left: 13rem; margin-right: 13rem;
 }
 
 
@@ -219,7 +218,7 @@ section{
    color:var(--white);
 }
 
-.analyst .slide i{
+.analysts .slide i{
    color:rgb(21, 243, 55);
    font-size: 5rem;
 }
@@ -241,6 +240,9 @@ section{
 .swiper-pagination-bullet-active{
    background-color: var(--green);
 }
+
+
+
 
 .dealers .slide{
    position: relative;
@@ -327,13 +329,12 @@ section{
 }
 
 .details .detail{
-   background-color: #4b4b4b;
+   background-color: #1d0c0c73;
    height: 40rem;
    width: 45rem;
    margin-top: 10rem;
    text-align: center;
    font-size: 3rem;
-   background-color: #3d3d3d;
 }
 .details .detail h2{
    margin-top: 4rem;
@@ -476,12 +477,13 @@ section{
    }
 
    .details .detail{
-      background-color: #4b4b4b;
-      height: 35rem;
+      background-color: #2b0b0b6d;
+      height: 30rem;
+      margin-left: -44rem;
       margin-top: 7rem;
       text-align: center;
       font-size: 2rem;
-      margin-bottom: 4rem;
+      margin-bottom: 13rem;
    }
 
 
@@ -532,6 +534,16 @@ section{
       font-size: 2rem;
       text-align: center;
       color:var(--white);
+   }
+
+
+   .home .video-container video{
+      position: absolute;
+      top: 0; left: 0;
+      z-index: -1;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
    }
 
 
