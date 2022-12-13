@@ -20,7 +20,7 @@
     <title>DEAL</title>
 
     <style>body{
-        background: url(./images/pic-25.jpg);
+        background: url(./images/pic-24.jpg);
         background-size: cover;}</style>
 
   </head>
@@ -63,9 +63,7 @@
                   <h5 class="my-3">Stephen</h5>
                   <p class="text-muted mb-1">Dealer</p>
                   <p class="text-muted mb-4">Bangalore, KA</p>
-                  <div class="d-flex justify-content-center mb-2">
-                     <a href="createdeal.html"><button type="button" class="btn btn-primary">CREATE DEAL</button></a>
-                  </div>
+                  
                </div>
                </div>
                
@@ -117,6 +115,30 @@
                </div>
             </div>
          </div>
+         </div>
+      </section>
+
+
+      <section class="consult" id="consult"> 
+
+         <h1 class="heading" style="margin-top: 6rem;"> <span style="color: blue;">create</span> deal</h1>
+ 
+         <div class="row">
+     
+             <form action="" method="post">
+                 <span>Dealer ID</span>
+                 <input type="text" required placeholder="enter dealer id " maxlength="50" name="deid" class="box">
+                 <span>Crop Photo</span>
+                 <input type="file" required placeholder="upload crop photos" maxlength="50" name="crp" class="box">
+                 <span>Quantity[In kwintal]</span>
+                 <input type="number" required placeholder="enter the quantity of crop" max="1000" min="0" name="quantity" class="box" >
+                 <span>Place With Pincode</span>
+                 <input type="text" required placeholder="enter your place" maxlength="50" name="place" class="box">
+                 <span>Expected Price</span>
+                 <input type="number" required placeholder="expected price per kwintal" max="50" min="0" name="price" class="box" >
+                 <input type="submit" value="CREATE" class="btn1" name="send">
+             </form>
+     
          </div>
       </section>
    

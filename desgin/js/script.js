@@ -53,3 +53,6 @@ var swiper = new Swiper(".dealers-slider", {
    },
 });
 
+var scene = document.getElementById('scene');
+var parallax = new Parallax(scene);
+
