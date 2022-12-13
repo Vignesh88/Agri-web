@@ -18,6 +18,10 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./css/style.css">
 
+    <style>body{
+        background: url(./images/pic-24.jpg);
+        background-size: cover;}</style>
+
 
 
   </head>
@@ -34,7 +38,7 @@
      
            <nav class="navbar">
               <a href="#home">home</a>
-              <a href="analystpage.html">home1</a>
+              <a href="#home1">home1</a>
               <a href="#home2">home2</a>
               <a href="#home3">home4</a>
               <a href="#home4">home5</a>
@@ -51,53 +55,28 @@
 
     <section class="consult" id="consult"> 
 
-        <h1 class="heading" style="margin-top: 5rem;"> <span>update</span> profile</h1>
+        <h1 class="heading" style="margin-top: 6rem;"> <span>create</span> deal</h1>
 
         <div class="row">
     
             <form action="" method="post">
-                <span>User ID</span>
-                <input type="text" required placeholder="enter user id " maxlength="50" name="anid" class="box">
-                <span>Name</span>
-                <input type="text" required placeholder="enter your name" maxlength="50" name="qoc" class="box">
-                <span>email</span>
-                <input type="email" required placeholder="enter your email" max="50" min="0" name="place" class="box" style="text-transform: lowercase;" >
-                <span>Photo</span>
-                <input type="file" required placeholder="upload your photo" maxlength="20" name="files" class="box">
-                <input type="submit" value="UPDATE" class="btn1" name="send">
+                <span>Dealer ID</span>
+                <input type="text" required placeholder="enter dealer id " maxlength="50" name="deid" class="box">
+                <span>Crop Photo</span>
+                <input type="file" required placeholder="upload crop photos" maxlength="50" name="crp" class="box">
+                <span>Quantity[In kwintal]</span>
+                <input type="number" required placeholder="enter the quantity of crop" max="1000" min="0" name="quantity" class="box" >
+                <span>Place With Pincode</span>
+                <input type="text" required placeholder="enter your place" maxlength="50" name="place" class="box">
+                <span>Expected Price</span>
+                <input type="number" required placeholder="expected price per kwintal" max="50" min="0" name="price" class="box" >
+                <input type="submit" value="CREATE" class="btn1" name="send">
             </form>
     
         </div>
      </section>
 
-<!--
 
-    <div class="container">
-	<div class="screen">
-		<div class="screen__content">
-
-			<form class="login">
-        <h2>UPDATE PROFILE</h2>
-					<input type="text" class="login__input" placeholder="UserID">
-          <input type="text" class="login__input" placeholder="NAME">
-					<input type="email" class="login__input" placeholder="E-mail">
-          <input type="file" class="login_ff" id="file1" name="upload">
-				   <button class="button login__submit">
-					<span class="button__text">UPDATE</span>
-				</button>
-			</form>
-
-		</div>
-		<div class="screen__background">
-			<span class="screen_backgroundshape screenbackground_shape4"></span>
-			<span class="screen_backgroundshape screenbackground_shape3"></span>
-			<span class="screen_backgroundshape screenbackground_shape2"></span>
-			<span class="screen_backgroundshape screenbackground_shape1"></span>
-		</div>
-
-</div>
-
--->
 
 <footer class="footer" style="margin-top: 7rem;">
 
