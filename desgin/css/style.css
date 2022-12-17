@@ -780,6 +780,20 @@ section{
       text-align: center;
       color:var(--white);
    }
+
+   element .style{
+      margin-left: 1rem;
+   }
+
+   .error-container > span {
+      display: inline-block;
+      position: relative;
+      margin-left: -3rem;
+    }
+
+    .error-container > span .error p{
+      font-size: small;
+    }
    
 
 }
