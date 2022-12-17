@@ -65,7 +65,7 @@ section{
    padding:1rem 3rem;
 }
 
-.btn:hover{
+.btn1:hover{
    background-color: var(--white);
    color:var(--black);
 }

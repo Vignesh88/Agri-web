@@ -11,6 +11,8 @@ window.onscroll = () =>{
    navbar.classList.remove('active');
 }
 
+
+
 var swiper = new Swiper(".analyst-slider", {
    spaceBetween: 20,
    grabCursor:true,
